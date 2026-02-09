@@ -14,5 +14,5 @@ export enum RegistrationType {
 
 export const REGISTRATION_LINKS = {
   [RegistrationType.TEMPLE]: 'https://pages.razorpay.com/pl_SE1yNhOmZ95UfP/view',
-  [RegistrationType.SINGLE]: 'https://pages.razorpay.com/pl_SE2ETMa8WehjEy/view'
+  [RegistrationType.SINGLE]: 'https://pages.razorpay.com/pl_SE3hXwkGX2Nvj5/view'
 };

@@ -79,7 +79,7 @@ const App: React.FC = () => {
               {/* Activity Points (Left) */}
               <div className="lg:w-5/12 flex flex-col justify-center space-y-6">
                 <div className="mb-4">
-                  <h2 className="text-saffron font-black text-2xl uppercase tracking-[0.2em] animate-fade-in">Our Activities</h2>
+                  <h2 className="text-saffron font-black text-2xl uppercase tracking-[0.2em] animate-fade-in">Highlights</h2>
                   <div className="w-16 h-1.5 bg-saffron mt-2 rounded-full"></div>
                 </div>
                 {ACTIVITIES.map((activity, idx) => (
@@ -135,7 +135,7 @@ const App: React.FC = () => {
         <section className="py-24 bg-slate-50">
           <div className="container mx-auto px-6">
             <div className="text-center mb-16 space-y-4">
-              <h2 className="text-4xl md:text-5xl font-serif font-black text-slate-900">Event Schedule</h2>
+              <h2 className="text-4xl md:text-5xl font-serif font-black text-slate-900">Schedule</h2>
               <div className="w-24 h-1.5 bg-saffron mx-auto rounded-full"></div>
             </div>
 
@@ -172,9 +172,8 @@ const App: React.FC = () => {
           <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
           <div className="container mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="text-center md:text-left">
-              <h2 className="text-3xl md:text-4xl font-bold mb-2">Ready to Join the Celebration?</h2>
-              <p className="text-lg opacity-90">Secure your spot today for the 2026 Sangotsava.</p>
-            </div>
+              <h2 className="text-3xl md:text-4xl font-bold mb-2">Join the Sangotsav</h2>
+              </div>
             <button 
               onClick={() => setIsModalOpen(true)}
               className="px-10 py-4 bg-white text-saffron font-black text-lg rounded-full shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 active:translate-y-0 uppercase tracking-wider"
